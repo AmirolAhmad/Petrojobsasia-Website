@@ -1,0 +1,11 @@
+{
+  "name": "petrojobsasia",
+  "version": "1.0.0",
+  "main": ["./assets/js/petrojobsasia.js", "./assets/css/petrojobsasia.css", "./assets/fonts/*"],
+  "ignore": [
+      "**/.*"
+  ],
+  "dependencies": {
+    "jquery": "latest"
+  }
+}
