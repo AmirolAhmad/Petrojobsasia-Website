@@ -1,0 +1,68 @@
+.btn {
+	padding: 10px 20px 10px 20px;
+	border-radius: 5px;
+}
+
+.btn-primary {
+	border: 2px solid #1abc9c;
+	background-color: transparent;
+	-moz-transition: 0.2s linear;
+	-webkit-transition: 0.2s linear;
+}
+
+.btn-primary:hover,
+.btn-primary:active {
+	color: #fff;
+	-moz-transition: 0.2s linear;
+	-webkit-transition: 0.2s linear;
+}
+
+.carousel-caption {
+	padding: 0 19px 22px;
+	top: 30%;
+	bottom: 30%;
+}
+
+.carousel-caption h1 {
+	font-weight: bold;
+	font-size: 61px;
+}
+
+.carousel-caption, .btn {
+	margin: 20px;
+}
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+	min-width: 100%;
+}
+
+.carousel-inner > .item.active > img,
+.carousel-inner > .item.active > a > img {
+	border-radius: 0;
+}
+
+.carousel-caption {
+	background: none;
+}
+
+@media screen and (max-width: 400px) {
+	.carousel-caption, h1 {
+		color: #000;
+		font-size: 36px;
+	}
+}
+
+.top-nav {
+  position: absolute;
+  z-index: 10;
+  color: #ffffff;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+  min-width: 100%;
+}
+
+.top-nav, .img {
+	padding-top: 20px;
+	padding-left: 30px;
+	padding-right: 30px;
+}

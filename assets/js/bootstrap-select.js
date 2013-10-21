@@ -102,12 +102,12 @@
 
         createDropdown: function() {
             var drop =
-                "<div class='btn-group select'>" +
-                    "<i class='dropdown-arrow'></i>" +
+                "<div class='btn-group select'>" +                    
                     "<button class='btn dropdown-toggle clearfix' data-toggle='dropdown'>" +
                         "<span class='filter-option pull-left'></span>&nbsp;" +
                         "<span class='caret'></span>" +
                     "</button>" +
+                    "<i class='dropdown-arrow'></i>" +
                     "<ul class='dropdown-menu' role='menu'>" +
                     "</ul>" +
                 "</div>";
