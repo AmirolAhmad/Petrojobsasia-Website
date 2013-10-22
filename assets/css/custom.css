@@ -1,8 +1,3 @@
-.btn {
-	padding: 10px 20px 10px 20px;
-	border-radius: 5px;
-}
-
 .btn-primary {
 	border: 2px solid #1abc9c;
 	background-color: transparent;
@@ -26,10 +21,6 @@
 .carousel-caption h1 {
 	font-weight: bold;
 	font-size: 61px;
-}
-
-.carousel-caption, .btn {
-	margin: 20px;
 }
 
 .carousel-inner > .item > img,
@@ -65,4 +56,93 @@
 	padding-top: 20px;
 	padding-left: 30px;
 	padding-right: 30px;
+}
+
+/*---------------------*/
+/* 		Sidebar 	   */
+/*---------------------*/
+
+aside {
+	padding-top: 20px;
+	position: fixed;
+	margin-top: 65px;
+	background: #00ac98;
+	width: 330px;
+	height: 100%;
+	overflow: scroll;
+}
+
+aside > .profile {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+	width: 200px;
+	height: 200px;
+}
+
+aside > h1 {
+	padding-left: 20px;
+}
+
+aside > .btn-group {
+	padding-left: 20px;
+}
+
+aside > p {
+	padding: 20px;
+	color: #fff;
+}
+
+aside > address {
+	color: #fff;
+	padding: 20px;
+}
+
+.full-width {
+	padding: 0;
+}
+
+.menu {
+  padding-left: 0;
+  margin-bottom: 20px;
+}
+
+.menu-item {
+  position: relative;
+  display: block;
+  padding: 15px 15px;
+  margin-bottom: -1px;
+  background-color: #00ac98;
+}
+
+a.menu-item {
+  color: #ffffff;
+  /*
+  border: 0 solid #00BBA5;
+  border-color: #00BBA5 #326632 #00BBA5;
+  box-shadow: 0 1px 0 #326632, inset 0 1px 0 #326632;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+  */
+}
+
+a.menu-item:hover,
+a.menu-item:focus {
+  text-decoration: none;
+  background-color: #00BBA5;
+}
+
+.menu-item.active,
+.menu-item:hover,
+.menu-item:focus {
+  z-index: 2;
+  color: #ffffff;
+  border-left: 10px solid #222;
+  /* 
+  box-shadow: 0 1px 1px #326632 inset, 0 1px 2px #326632;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+  */
 }
